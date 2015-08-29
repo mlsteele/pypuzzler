@@ -1,6 +1,7 @@
 import impl_hashtable
-import ref_hashtable
+# import ref_hashtable
 
+# Which implementation to test.
 HT = impl_hashtable
 
 class TestHashtable(object):
@@ -68,3 +69,8 @@ class TestHashtable(object):
         assert HT.swap(ht, 'a', 7) == 6
         assert HT.swap(ht, 'a', 8) == 7
         assert HT.get(ht, 'a') == 8
+
+
+if __name__ == "__main__":
+    import pytest
+    pytest.main()
