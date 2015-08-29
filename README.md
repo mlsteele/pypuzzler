@@ -19,6 +19,15 @@ Write your solution in impl_hashtable.py
 - remove
 - swap
 
+## Testing
+
+While writing your implementations, you can run the unit tests
+to see if it's working.
+
+    $ pip install -r requirements.txt  # Install the requirements.
+    $ py.test -x test_hashtable.py     # Run all hashtable tests.
+    $ py.test -x test_hashtable.py     # Run hashtable tests until one fails.
+
 ## Challenge 2 : Multiset
 
 A `set` in python is a datatype for a mathematical set.
@@ -44,3 +53,11 @@ Hint: You can use your hash table from challenge 1.
 - remove
 - count
 - size
+
+## Testing
+
+Running the tests for challenge 2 is just like for challenge 1,
+but substitue in `test_multiset.py`.
+
+    $ py.test test_mutliset.py     # Run all multiset tests.
+    $ py.test -x test_multiset.py  # Run multiset tests until one fails.

@@ -7,6 +7,7 @@ A hash table stores a mapping from keys to values.
 
 def create():
     """Create a new hash table."""
+    raise NotImplementedError()
 
 def put(ht, key, value):
     """Put a mapping into the hash table.
